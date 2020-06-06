@@ -1,0 +1,37 @@
+{
+  "name": "node-todo-app",
+  "version": "1.0.0",
+  "description": "My Todo App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/nodemon/bin/nodemon.js server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kalkulus1/node-todo-app.git"
+  },
+  "keywords": [
+    "Node",
+    "ToDo",
+    "Mongodb",
+    "Express"
+  ],
+  "author": "Mumuni Mohammed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kalkulus1/node-todo-app/issues"
+  },
+  "homepage": "https://github.com/Kalkulus1/node-todo-app#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.9.18",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
